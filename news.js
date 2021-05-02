@@ -109,7 +109,7 @@ xhr.send()
 
   function myFunction1() {
     const xhr = new XMLHttpRequest();
-xhr.open('GET', `https://gnews.io/api/v4/search?q=manga&lang=en&country=in&token=${apiKey}`, true);
+xhr.open('GET', `https://gnews.io/api/v4/search?q=manga&lang=en&country=sg&token=${apiKey}`, true);
 
 // What to do when response is ready
 xhr.onload = function () {
@@ -158,7 +158,7 @@ xhr.send()
 
   function myFunction2() {
     const xhr = new XMLHttpRequest();
-xhr.open('GET', `https://gnews.io/api/v4/search?q=manga&lang=en&country=sg&token=${apiKey}`, true);
+xhr.open('GET', `https://gnews.io/api/v4/search?q=manga&lang=en&country=gb&token=${apiKey}`, true);
 
 // What to do when response is ready
 xhr.onload = function () {
@@ -208,7 +208,7 @@ xhr.send()
 
   function myFunction3() {
     const xhr = new XMLHttpRequest();
-xhr.open('GET', `https://gnews.io/api/v4/search?q=manga&lang=en&country=gb&token=${apiKey}`, true);
+xhr.open('GET', `https://gnews.io/api/v4/search?q=manga&lang=en&country=ph&token=${apiKey}`, true);
 
 // What to do when response is ready
 xhr.onload = function () {
@@ -258,7 +258,7 @@ xhr.send()
 
   function myFunction4() {
     const xhr = new XMLHttpRequest();
-xhr.open('GET', `https://gnews.io/api/v4/search?q=manga&lang=en&country=ph&token=${apiKey}`, true);
+xhr.open('GET', `https://gnews.io/api/v4/search?q=manga&lang=en&country=in&token=${apiKey}`, true);
 
 // What to do when response is ready
 xhr.onload = function () {
